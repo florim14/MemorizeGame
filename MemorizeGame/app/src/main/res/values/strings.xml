@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MemorizeGame</string>
+    <string name="start_game">New Game</string>
+    <string name="multiplayer">Multiplayer</string>
+    <string name="high_score">Score</string>
+    <string name="options">Options</string>
+    <string name="exit">Exit</string>
+    <string name="save_options">Save</string>
+</resources>
