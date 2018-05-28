@@ -417,7 +417,9 @@ public class GameActivity extends AppCompatActivity {
     @Override
     protected void onStop() {
         super.onStop();
-        timerForGame.cancel();
-        timerForGame = null;
+        if (!singleOrMulti.equals("Multi")) {
+            timerForGame.cancel();
+            timerForGame = null;
+        }
     }
 }

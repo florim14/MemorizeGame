@@ -14,6 +14,7 @@
         android:layout_weight="50"
         android:gravity="left"
         android:textSize="18dp"
+        android:textColor="@color/colorPrimaryDark"
         android:text="00:00"/>
 
     <TextView
@@ -24,6 +25,7 @@
         android:layout_weight="25"
         android:gravity="right"
         android:textSize="18dp"
+        android:textColor="@color/colorPrimaryDark"
         android:text="00:00"/>
 
 </LinearLayout>
